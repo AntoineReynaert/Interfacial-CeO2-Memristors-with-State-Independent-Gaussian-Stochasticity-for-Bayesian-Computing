@@ -1,0 +1,14 @@
+name: bayesian_computing
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.10
+  - wfdb
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - pytorch
+  - pip
+  - pip:
+    - ipykernel
